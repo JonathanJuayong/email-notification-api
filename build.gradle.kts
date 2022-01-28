@@ -45,6 +45,7 @@ dependencies {
     implementation("com.microsoft.azure:applicationinsights-spring-boot-starter:2.5.1")
     implementation("com.microsoft.azure:applicationinsights-logging-logback:2.5.1")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("com.mailjet:mailjet-client:5.2.0")
 
     runtimeOnly("com.h2database:h2") // only for local testing
 
